@@ -1,0 +1,177 @@
+/* Road CSS */
+:root {
+    --circle: 50px;
+    --icon-width: 450px;
+    --info-width: 300px;
+    --icon-default: 400px;
+}
+
+.Road {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.Stones {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    align-self: flex-end;
+    column-gap: 50px;
+    left: 10%;
+}
+
+.Inner-Road {
+    display: flex;
+    width: 100%;
+    height: var(--circle);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    align-self: flex-end;
+}
+
+.Outer-Progress {
+    width: 96%;
+    background-color: white;
+    height: 25px;
+    border-radius: 25px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.Inner-Progress {
+    position: relative;
+    background-color: #4E99EF;
+    height: 100%;
+    border-radius: 25px;
+    transition: width 300ms ease-in-out;
+}
+
+.Progress-Background {
+    position: relative;
+    width: 100%;
+    background-color:#e6e6e6;
+    height: 60%;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Milestone CSS */
+
+.Milestone {
+    width: 800px;
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Stop {
+    width: var(--circle);
+    height: var(--circle);
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 200ms ease;
+}
+
+.Checkpoint {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+}
+
+.Title {
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.Icon {
+    width: var(--icon-default);
+    height: var(--icon-default);
+    padding: 25px;
+    transition: all 200ms ease-in-out;
+}
+
+.Icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.Icon:hover {
+    width: var(--icon-width);
+    height: var(--icon-width);
+    padding: 0px;
+}
+
+.Content {
+    width: 300px;
+    height: 400px;
+    transition: all 500ms ease-in-out;
+}
+
+.Heading {
+    color: white;
+    height: auto;
+    width: auto;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.Description {
+    color: white;
+    height: auto;
+    width: auto;
+    border-radius: 25px;
+    padding: 10px;
+    border: 2px solid white;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    /* Phone */
+    :root {
+        --circle: 40px;
+        --icon-default: 350px;
+        --icon-width: 400px;
+    }
+    .Outer-Progress {
+        height: 30px;
+    }
+    .Title {
+        font-size: 18px;
+    }
+    .Description {
+        font-size: 14px;
+    }
+    .Heading {
+        font-size: 16px;
+    }
+}

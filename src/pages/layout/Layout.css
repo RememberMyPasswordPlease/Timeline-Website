@@ -1,0 +1,97 @@
+.Layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.Nav-Bar {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 6;
+    column-gap: 10px;
+    flex-wrap: wrap-reverse;
+}
+
+.Icon-Row {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+}
+
+.Nav-Title {
+    width: auto;
+    align-self: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Nav-Icon {
+    width: 90px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav-Icon img {
+    width: 40px;
+    height: 40px;
+}
+
+#Home-Icon {
+    margin-left: 10px;
+}
+
+.Nav-Icon:hover {
+    background-color: #f2f2f2;
+}
+
+.Footer {
+    background-color: #202020;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer-Half {
+    height: 80%;
+    width: 40%;
+}
+
+.Footer-Half h2{
+    color: #ffffff;
+}
+
+#About-Us p {
+    width: 70%;
+    color: #878787;
+}
+
+#Contact h4{
+    color: #878787;
+    margin-bottom: 5px;
+}
+
+#Contact .Social-Bar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+#Contact .Contact-Detail a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    transition: font-size 200ms ease;
+}
+
+#Contact .Contact-Detail a:hover {
+    color: #cccccc;
+    font-size: 35px;
+}
+
+

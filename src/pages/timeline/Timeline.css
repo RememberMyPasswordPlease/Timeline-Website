@@ -1,0 +1,8 @@
+.Timeline {
+    height: 800px;
+    overflow: auto;
+    background-image: linear-gradient(to right, #cb81fb, #8163ca);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

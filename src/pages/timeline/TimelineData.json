@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "AN INTERSTELLAR CLOUD",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Carved_by_Massive_Stars.jpg",
+        "description": "An interstellar cloud is generally an accumulation of gas, plasma, and dust in our and other galaxies. Put differently, an interstellar cloud is a denser-than-average region of the interstellar medium (ISM), the matter and radiation that exists in the space between the star systems in a galaxy"
+    },
+    {
+        "id": "2",
+        "title": "A COLLAPSING CLOUD FRAGMENT",
+        "icon": "https://cosmosmagazine.com/wp-content/uploads/2020/02/180502-star-full-1152x1440.jpg?x10607",
+        "description": "The traditional view of fragmentation is that this collapse generates substructure. As the cloud contracts, it breaks apart, producing several daughter clouds. Each daughter, in turn, collapses and breaks up. After a number of generations, fragments with stellar-type mass are produced - the observed dense cores"
+    },
+    {
+        "id": "3",
+        "title": "FRAGMENTATION CEASES",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKQ8WGpW8YbuegY6RPB6FDXOk6zAuu7cRaUg&usqp=CAU",
+        "description": "At this phase the cloud is very diffuse, so heat is not trapped (except near the center) and temperature does not build much"
+    }
+]
